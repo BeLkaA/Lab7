@@ -1,0 +1,20 @@
+{
+    "name": "BAA/web-lab",
+    "description": "Web-labs of BAA",
+    "require": {
+        "twig/twig": "^1.27"
+    },
+    "authors": [
+        {
+            "name": "Belka Anton",
+            "email": "anton.belka@list.ru"
+        }
+    ],
+	"minimum-stability": "dev",
+    
+    "autoload":{
+        "psr-4":{
+            "BAAWebLab\\":"BAAcore/"
+        }
+    }
+}
